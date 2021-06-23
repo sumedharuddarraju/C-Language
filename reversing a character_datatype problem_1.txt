@@ -15,5 +15,4 @@ int main()
 	printf("\n %c",ch2 );
 	printf("\n %c",ch1 );
 	return 0;
-	
 }
