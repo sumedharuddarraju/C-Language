@@ -1,0 +1,19 @@
+/*   1.Write a C program to print the following characters in a reverse way.
+Eg: 'P', 'P', 'S' printed as 'S' 'P' 'P'    */
+
+#include<stdio.h>
+int main()
+{
+	char ch1 , ch2 , ch3 ;
+	printf("\n Enter 3 characters:");
+	scanf("%c\n",&ch1);
+
+	scanf("%c\n",&ch2);
+
+	scanf("%c",&ch3);
+	printf("\n %c",ch3 );
+	printf("\n %c",ch2 );
+	printf("\n %c",ch1 );
+	return 0;
+	
+}
