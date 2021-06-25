@@ -1,0 +1,16 @@
+/*3. Write a C program to find the size of different data types*/
+
+#include<stdio.h>
+int main()
+{
+	printf("size of integer is %d",sizeof(int));
+	printf("\n size of char is %d",sizeof(char));
+	printf("\n size of float is %d",sizeof(float));
+	printf("\n size of double is %d",sizeof(double));
+	printf("\n size of long integer is %d",sizeof(long));
+	printf("\n size of unsigned char is %d",sizeof(unsigned char));
+	printf("\n size of unsigned integer is %d",sizeof(unsigned int));
+	printf("\n size of unsigned long integer is %d",sizeof(unsigned long));
+	printf("\n size of long double is %d",sizeof(long double));
+	return 0;
+}

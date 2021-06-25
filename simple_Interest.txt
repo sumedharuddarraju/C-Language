@@ -1,0 +1,16 @@
+/* 4..Write a C program to find Simple Interest.*/
+
+#include<stdio.h>
+int main()
+{
+	float p , t , r , SI;
+	printf("Enter the principle:");
+	scanf("%f",&p);
+	 printf("Enter time in years:");
+	 scanf("%f",&t);
+	 printf("Enter Interest rate:");
+	  scanf("%f",&r);
+	  SI =(p*t*r)/100;
+	  printf("Simple Interest is: %f",SI);
+	  return 0;
+}
