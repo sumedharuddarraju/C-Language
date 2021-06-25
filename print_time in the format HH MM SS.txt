@@ -1,0 +1,14 @@
+/*  18.Write a C program to input  time in seconds and print in standard time format HH:MM:SS*/
+
+#include<stdio.h>
+int main()
+{
+	int sec, min,hrs,s;
+	printf("Enter the time in seconds:");
+	scanf("%d,",&sec);
+	hrs= sec/3600;
+	min = (sec -(3600*hrs))/60;
+	s=(sec-(3600*hrs)-(min*60));
+	printf("\n HH:MM:SS = %d:%d:%d",hrs,min,s);
+	return 0;
+}

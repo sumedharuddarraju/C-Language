@@ -1,0 +1,12 @@
+/* 12.Write a C program to convert temperature from foreinheit to celcius*/
+
+#include <stdio.h>
+int main()
+{
+	float f; 
+	float c;
+	printf("Enter the temperature in Fareinheit:");
+	scanf("%f",&f);
+	c = (5*(f-32)/9);
+    printf("The temperature in celcius is %f",c);
+}

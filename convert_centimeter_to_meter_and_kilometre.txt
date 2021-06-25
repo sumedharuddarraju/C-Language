@@ -1,0 +1,13 @@
+/*17.Write a C program to input length in centimeter and convert it to meter and kilometer. */
+
+#include<stdio.h>
+int main()
+{
+	float cm,m,km;
+	printf("Enter length in centimetres:");
+	scanf("%f",&cm);
+	m = cm/100;
+	km=cm/10000;
+	printf("meters= %f \n kilometres = %f",m,km);
+	return 0;
+}
