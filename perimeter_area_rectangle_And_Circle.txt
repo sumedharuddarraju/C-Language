@@ -1,0 +1,23 @@
+/* 2.Write a C program to compute the perimeter and area of a rectangle ,Circle.*/
+
+#include<stdio.h>
+int main()
+{
+	double r,PI , l , b, area_circle,perimeter_circle , area_rectangle , perimeter_rectangle;
+    PI = 3.14;
+    printf("\n Enter radius of the circle:");
+	scanf("%lf",&r);
+	 printf("\n Enter length of rectangle:");
+	scanf("%lf",&l);
+	printf("\n Enter the breadth  of rectangle:");
+	scanf("%lf",&b);
+	area_circle = PI*r*r;
+	perimeter_circle = 2*PI*r;
+	area_rectangle = l * b;
+	perimeter_rectangle = 2*l +2*b;
+	printf("\n The area of circle is %lf",area_circle);
+	printf("\n The perimeter of circle is %lf",perimeter_circle);
+    printf("\n area of rectangle  is %lf",area_rectangle);
+    printf("\n The perimeter of rectangle is %lf",perimeter_rectangle);
+	return 0;
+}
