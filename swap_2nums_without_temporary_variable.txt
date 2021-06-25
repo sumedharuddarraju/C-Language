@@ -1,0 +1,28 @@
+/*  4. Program to swap two numbers without using temperory variable*/
+
+#include<stdio.h>
+int main()
+{
+	int num1,num2;
+	printf("Enter 2 numbers:\n");
+	scanf("%d%d",&num1,&num2);
+    
+	   //Using +,-
+	//num1 =num1+num2;
+    //num2 = num1- num2;
+    //num1 = num1-num2;
+        
+		//Using*,/
+	   //num1 = num1*num2;
+       //num2 = num1/num2;
+       //num1=num1/num2;
+       
+	   //using bitwise_operators
+	   num1 ^= num2;
+       num2 ^= num1 ;
+       num1 ^= num2;
+       
+    
+	printf("After swapping num1 =  %d, num2 = %d",num1, num2);
+	return 0;
+}

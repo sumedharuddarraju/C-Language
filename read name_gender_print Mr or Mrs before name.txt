@@ -1,0 +1,17 @@
+/*8. Program to read Name and Gender of a person and print Mr. or Mrs before the name
+Note: Format specifier to read name is %s(don’t give space separated names)  */
+
+#include<stdio.h>
+int main()
+{
+	char name[20];
+	char gender;
+	printf("Enter your name with out any spaces:");
+	scanf("%s",name);
+	printf("Enter your gender (M - Male ,F - Female):");
+		fflush(stdin);
+	scanf("\n%c",&gender);
+	(gender=='M'|| gender =='m')?printf("Mr.%s",name):printf("Mrs.%s",name);
+}
+	
+	

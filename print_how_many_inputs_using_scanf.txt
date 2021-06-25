@@ -1,0 +1,11 @@
+/* 7 .Program to Print How Many Inputs are taken from Keyboard using Scanf  */
+
+#include<stdio.h>
+int main()
+{
+	int num1 , num2 ,num3 , a;
+	printf("Enter 3 numbers:\n");
+	a = scanf("%d%d%d",&num1,&num2,&num3);
+	printf("The no of inputs taken using scanf is %d",a);
+	return 0;
+}

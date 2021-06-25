@@ -1,0 +1,12 @@
+/*  11.Program to input two angles from user and find third angle of the triangle */
+
+#include<stdio.h>
+int main()
+{
+	int first_angle,second_angle,third_angle;
+	printf("Enter 2 angles of a triangle:\n");
+	scanf("%d%d",&first_angle,&second_angle);
+    third_angle = 180-(first_angle+second_angle);
+    printf("The Third angle of the triangle is %d",third_angle);
+    return 0;
+	}
