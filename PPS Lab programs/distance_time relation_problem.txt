@@ -3,6 +3,7 @@ top of the building. Find the time taken by the ball to reach each floor. (Use t
 s = ut+(1/2)at^2 
 where u and a are the initial velocity in m/sec (= 0) and acceleration in m/sec^2 
 (= 9.8 m/s^2)).*/
+
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -11,7 +12,5 @@ int main()
    double t,a=9.8;
    s= h1 * no;
    t=sqrt(2*s/a);
-   printf("time is %lf",t);
-   
-   	
+   printf("time is %lf",t); 	
 }
