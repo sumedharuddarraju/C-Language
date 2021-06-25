@@ -1,0 +1,22 @@
+//converting a number to a binary number
+/*Write a program that shows the binary equivalent of a given positive number between
+0 to 255.*/
+
+#include<stdio.h>
+int main()
+{
+	int num, i=1,rem,binary= 0;      
+	printf("Enter a number:\n");     
+	scanf("%d",&num);
+    while(num != 0)          
+	{ 
+	
+	rem = num % 2;              
+	num /= 2;          
+	binary = binary + i * rem;  
+	i *= 10;       
+    }
+    printf("%d",binary);
+        
+      return 1;
+}
