@@ -1,0 +1,11 @@
+/* 2.check whether a number is odd*/
+
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("Enter a number");
+	scanf("%d",&num);
+	if(num%2!=0)
+	printf("number is odd");
+}

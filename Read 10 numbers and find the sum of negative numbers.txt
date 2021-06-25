@@ -1,0 +1,19 @@
+/*3.Read 10 numbers and find the sum of negative numbers*/
+
+#include<stdio.h>
+int main()
+{ 
+     int n,nsum=0,noip=0;
+  	do
+	{ 
+	 printf("Enter a number:");
+	 scanf("%d",&n);
+	 if(n<0)
+	 {
+	 nsum+=n;
+     }
+	 noip++;
+    }while(noip<10);
+	 printf("The sum of negative numbers is %d",nsum);
+	 
+}

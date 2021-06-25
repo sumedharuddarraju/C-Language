@@ -1,0 +1,20 @@
+/* 1.Write program that declares Class awarded for a given percentage of marks, where 
+mark <40%= Failed, 40% to <60% = Second class, 60% to <70%=First class, >=  70% = Distinction.
+ Read percentage from standard input. */
+ 
+ #include<stdio.h>
+int main()
+{
+	float percentage ;
+    printf("Enter your percentage : ");
+	scanf("%f",&percentage);
+	if(percentage <=40)
+	printf("Failed");
+	else if(percentage>40 && percentage<=60)
+	printf("Second class");
+	else if(percentage>60 && percentage<70)
+	printf("First class");
+	else 
+	printf("Distinction");
+	
+}

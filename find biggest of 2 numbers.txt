@@ -1,0 +1,15 @@
+/* 3. find biggest of 2 numbers.*/
+
+#include<stdio.h>
+int main()
+{
+	int num1,num2 ;
+    printf("Enter a number ");
+	scanf("%d%d",&num1,&num2);
+	if(num1 > num2)
+	printf("num1 is biggest");
+	else if(num1 < num2)
+	printf("num2 is biggest");
+	else
+	printf("both numbers are equal");
+}

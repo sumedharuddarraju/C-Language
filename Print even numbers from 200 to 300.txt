@@ -1,0 +1,13 @@
+/*2.Print even numbers from 200 to 300*/
+
+#include<stdio.h>
+int main()
+{
+	int num= 200;
+	do
+	{
+			printf("%4d",num);
+			num+=2;
+	}while(num<=300);
+	
+}

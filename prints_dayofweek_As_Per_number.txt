@@ -1,0 +1,30 @@
+/*2.Write a C program, which takes a number (1-7)  from the user,  and prints the day of the
+      week as per the number(use Switch Statement)(1-Monday,2-Tuesday…7-Sunday)*/
+      
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("Enter a number(1 - 7) \n");
+	scanf("%d",&num);
+	switch(num)
+	{
+		case 1:printf("\n The day is Monday");
+		       break;
+		case 2:printf("\n The day is Tuesday");
+		       break;
+		case 3:printf("\n The day is Wednesday");
+		       break;
+		case 4:printf("\n The day is Thursday");
+		       break;
+		case 5:printf("\n The day is Friday");
+		       break;
+		case 6:printf("\n The day is Saturday");
+		       break;
+		case 7:printf("\n The day is Sunday");
+		       break;
+	    default:printf("\n Invalid number");	          
+	
+	}
+	
+}
