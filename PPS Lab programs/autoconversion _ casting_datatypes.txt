@@ -1,0 +1,22 @@
+/*Write a simple program that converts one given data type to another using auto
+conversion and casting. Take the values form standard input.*/
+
+#include<stdio.h>
+int main()
+{
+	int num,result,res;
+	char ch; 
+	float f=2.3;
+	printf("Enter a number:    ");
+	scanf("%d",&num);
+	printf("Enter a character:   ");
+	scanf("\n%c",&ch);
+	printf("Enter a float number:    ");
+	scanf("%f",&f);
+	
+	result =ch +num;      //Implicit type conversion
+    res= (int)f;                  //Explicit type conversion
+	
+	printf("Sum of %d and %c is %d \n",num,ch,result);
+	printf("\n%d",res);
+}
