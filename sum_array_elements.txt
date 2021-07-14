@@ -1,0 +1,19 @@
+//Sum of array elements
+
+#include<stdio.h>
+int main()
+{
+	int A[10],i,sum=0;  
+               float avg;
+	printf("Enter 10 numbers\n");
+	 for(i=0;i<10;i++)
+	   scanf("%d",&A[i]);
+	 printf("\n");                                
+	for(i=0;i<10;i++)
+	{
+	 sum +=A[i];
+	}
+	   printf("%d",sum);
+	return 1;
+}
+

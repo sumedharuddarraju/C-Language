@@ -1,0 +1,29 @@
+//Insert an element in a particular array position
+
+#include<stdio.h>
+int main()
+{
+	int A[20],n,i,p,num;
+	printf("Enter the number of elements in the array:  ");
+	scanf("%d",&n);
+	printf("\nEnter the position ");
+    scanf("%d",&p);
+    printf("Enter the array element to be inserted\n");
+    scanf("%d",&num);
+	printf("Enter the elements: \n");
+	
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&A[i]);
+	}
+	for (i=n-1;i>=p;i--)
+    {
+	   A[i+1] = A[i];
+	  }
+	      A[p] = num;
+	
+		for(i=0;i<=n;i++)
+	{
+		printf("%4d",A[i]);
+	}
+}

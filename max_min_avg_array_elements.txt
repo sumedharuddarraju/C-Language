@@ -1,0 +1,28 @@
+//Maximum ,Minimum and average of Array elements.
+
+#include<stdio.h>
+int main()
+{
+	int n;
+	int A[100],i,max=0,min=1000000,sum=0;  
+	float avg;
+	printf("Enter n\n");
+	scanf("%d",&n);
+	printf("Enter the numbers \n");
+	 for(i=0;i<n;i++)
+	 {
+	   scanf("%d",&A[i]);
+     }
+	for(i=0;i<n;i++)        
+	{
+	  	max= max<A[i]?A[i]:max; 
+		min= min>A[i]?A[i]:min;
+		sum += A[i]; 	               
+	}
+	 avg=sum/(float)n;    
+	printf("\nmax= %d",max);
+	printf("\nmin= %d",min);
+	printf("\navg= %f",avg);
+	
+	return 1;
+}
