@@ -1,0 +1,21 @@
+//Read and print employee details using structures.(Emp name,eno,salary)
+
+#include<stdio.h>
+	struct employee
+{
+	char name[20];
+	int empno;
+	float salary;
+}emp;
+int main()
+{
+	printf("\n Enter employee name :");
+	gets(emp.name);
+	printf("\n Enter empno :");
+	scanf("%d",&emp.empno);
+	printf("\n Enter salary :");
+	scanf("%f",&emp.salary);
+	
+	printf("\n name= %s ,empno=%d, salary=%f",emp.name,emp.empno,emp.salary);
+
+}

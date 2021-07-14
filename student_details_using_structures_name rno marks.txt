@@ -1,0 +1,48 @@
+/*The details of students are:
+----------------------------
+NAME      RNO   M1  M2  M3
+Meena     120   95  89  76
+Dheeraj   561   98  90  85*/
+#include<stdio.h>
+struct student
+{
+	char Name[20];
+	int rollnumber;
+	int Marks[10];
+}s1,s2;
+int main()
+{
+    int i,j;
+    printf("Enter name of student1 :  ");
+    gets(s1.Name);
+    printf("Enter roll number of student1 : ");
+    scanf("%d",&s1.rollnumber);
+    printf("Enter Marks of each subject:");
+    for(i=0;i<3;i++)
+    {
+	    scanf("%d",&s1.Marks[i]);
+    }   
+    
+    printf("Enter name of student2 :  ");
+    scanf("%s",&s2.Name);
+    printf("Enter roll number of student2 : ");
+    scanf("%d",&s2.rollnumber);
+    printf("Enter Marks of each subject:");
+    for(j=0;j<3;j++)
+{
+	scanf("%d",&s2.Marks[j]);
+} 
+   printf("The details of students are:\n");
+   printf("-----------------------------------\n");
+   printf("Name        RNo     M1     M2     M3\n");
+   printf("%s%8d",s1.Name,s1.rollnumber);
+   for(i=0;i<3;i++)
+{
+	printf("%8d",s1.Marks[i]);
+}
+printf("\n%s%8d",s2.Name,s2.rollnumber);
+for(j=0;j<3;j++)
+{
+	printf("%8d",s2.Marks[j]);
+}
+}
