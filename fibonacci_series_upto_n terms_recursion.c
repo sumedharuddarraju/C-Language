@@ -1,5 +1,5 @@
-/*Fibinocci series  0 1 1 2 3 5 8 13 ....
-generate fibinocci series till n terms i.e (if n=4  0 1 1 2)*/
+/*Fibonacci series  0 1 1 2 3 5 8 13 ....
+generate fibonacci series till n terms i.e (if n=4  0 1 1 2)*/
 
 #include<stdio.h>
 int fib(int);
