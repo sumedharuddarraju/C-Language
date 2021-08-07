@@ -1,5 +1,5 @@
-/*Fibinocci series  0 1 1 2 3 5 8 13 ....
-print nth term in fibinocci series  i.e (if n=4     2)*/
+/*Fibonacci series  0 1 1 2 3 5 8 13 ....
+print nth term in fibonacci series  i.e (if n=4     2)*/
 
 #include<stdio.h>
 int fib(int);
