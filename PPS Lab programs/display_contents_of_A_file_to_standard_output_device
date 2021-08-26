@@ -1,0 +1,25 @@
+//Write a C program to display the contents of a file to standard output device.
+
+#include<stdio.h>
+void main()
+{
+	FILE *fptr1;
+	char ch;
+	fptr1=fopen("File1.txt","w");
+	if(fptr1)
+	printf("\nFile1 opened successfully\n");
+	printf("\n Input Data\n");
+	while((ch=getchar())!='$')
+	{
+		fputc(ch,fptr1);
+	}
+	fclose(fptr1);
+	
+	fptr1=fopen("File1.txt","r");
+	while((ch=fgetc(fptr1))!=EOF)
+	{
+		printf("%c",ch);
+	}
+
+	fclose(fptr1);
+}
