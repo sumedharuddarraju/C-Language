@@ -1,0 +1,10 @@
+//Reversing a string
+
+#include<stdio.h>
+#include<string.h>
+void main()
+{  
+	char s[]="hello";
+	strrev(s);
+	puts(s);
+}
