@@ -29,8 +29,8 @@ int main()
 	printf("\n a | b is %d",a|b);
 	printf("\n a ^ b is %d",a^b);
 	printf("\n ~a is %d",~a);
-	printf("\n <<a is %d",~a);
-	printf("\n ~a is %d\n",~a);
+	printf("\n a<<2 is %d",a<<2);
+	printf("\n a>>2 is %d\n",a>>2);
 	
 	//conditional operators
     max=(a>b)?a:b;
